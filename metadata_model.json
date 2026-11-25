@@ -1,0 +1,40 @@
+{
+    "project_title": "Prediksi Kelulusan Mahasiswa Menggunakan ANN Backpropagation Berbasis Web",
+    "input_features": {
+        "numeric_features": [
+            "IPK",
+            "Kehadiran",
+            "Jumlah_Organisasi",
+            "Total_SKS",
+            "Jam_Belajar"
+        ],
+        "categorical_features": [
+            "Penghasilan_Orang_Tua",
+            "Kualitas_Internet"
+        ],
+        "feature_order": [
+            "IPK",
+            "Kehadiran",
+            "Jumlah_Organisasi",
+            "Total_SKS",
+            "Jam_Belajar",
+            "Penghasilan_Orang_Tua",
+            "Kualitas_Internet"
+        ]
+    },
+    "target_mapping": {
+        "Tidak Tepat Waktu": 0,
+        "Tepat Waktu": 1
+    },
+    "reverse_target_mapping": {
+        "0": "Tidak Tepat Waktu",
+        "1": "Tepat Waktu"
+    },
+    "model_metrics": {
+        "accuracy": 0.9669,
+        "precision": 0.989,
+        "recall": 0.9677,
+        "f1_score": 0.9783,
+        "roc_auc": 0.9965
+    }
+}
